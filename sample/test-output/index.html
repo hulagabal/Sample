@@ -101,12 +101,12 @@
                     <div class="method-list-content passed suite-MySuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="sample.Sample2" hash-for-method="sample1">sample1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="sample.Sample" hash-for-method="sample1">sample1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="sample.Sample" hash-for-method="sample1">sample1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="sample.Sample2" hash-for-method="sample1">sample1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -131,12 +131,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="sample.Sample2" hash-for-method="sample2">sample2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="sample.Sample" hash-for-method="sample2">sample2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="sample.Sample" hash-for-method="sample2">sample2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="sample.Sample2" hash-for-method="sample2">sample2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-MySuite -->
@@ -231,11 +231,11 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;MySuite&quot;&gt;
+&lt;suite verbose=&quot;3&quot; name=&quot;MySuite&quot; parallel=&quot;true&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;sample.MyListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;Test1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot; parallel=&quot;true&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;sample.Sample&quot;/&gt;
       &lt;class name=&quot;sample.Sample2&quot;/&gt;
@@ -289,42 +289,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'sample1')
-data.setCell(0, 2, 'sample.Sample')
-data.setCell(0, 3, 6);
+data.setCell(0, 1, 'sample2')
+data.setCell(0, 2, 'sample.Sample2')
+data.setCell(0, 3, 8);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'sample2')
-data.setCell(1, 2, 'sample.Sample2')
-data.setCell(1, 3, 2);
+data.setCell(1, 1, 'sample1')
+data.setCell(1, 2, 'sample.Sample')
+data.setCell(1, 3, 8);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'sample1')
 data.setCell(2, 2, 'sample.Sample2')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 8);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'sample1')
-data.setCell(3, 2, 'sample.Sample2')
-data.setCell(3, 3, 1);
+data.setCell(3, 1, 'sample2')
+data.setCell(3, 2, 'sample.Sample')
+data.setCell(3, 3, 7);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'sample2')
 data.setCell(4, 2, 'sample.Sample')
 data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'sample1')
-data.setCell(5, 2, 'sample.Sample')
+data.setCell(5, 2, 'sample.Sample2')
 data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'sample2')
+data.setCell(6, 1, 'sample1')
 data.setCell(6, 2, 'sample.Sample')
-data.setCell(6, 3, 0);
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'sample2')
 data.setCell(7, 2, 'sample.Sample2')
-data.setCell(7, 3, 0);
+data.setCell(7, 3, 1);
 window.suiteTableData['MySuite']= { tableData: data, tableDiv: 'times-div-MySuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 ms</span>
+              <span class="suite-total-time">Total running time: 35 ms</span>
               <div id="times-div-MySuite">
               </div> <!-- times-div-MySuite -->
             </div> <!-- times-div -->
@@ -355,42 +355,42 @@ return data;
                 <span class="method-name">sample1</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">sample2</span>
-                <span class="method-start">7 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">sample.Sample2</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">sample1</span>
-                <span class="method-start">9 ms</span>
+                <span class="method-name">sample2</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">sample2</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-name">sample1</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">sample.Sample</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">sample2</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">sample1</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">46 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sample2</span>
-                <span class="method-start">52 ms</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">sample.Sample2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">sample1</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sample2</span>
-                <span class="method-start">55 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

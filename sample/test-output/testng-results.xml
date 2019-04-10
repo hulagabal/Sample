@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="MySuite" duration-ms="70" started-at="2019-04-10T17:49:28Z" finished-at="2019-04-10T17:49:28Z">
+  <suite name="MySuite" duration-ms="65" started-at="2019-04-10T18:36:29Z" finished-at="2019-04-10T18:36:29Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="26" started-at="2019-04-10T17:49:28Z" finished-at="2019-04-10T17:49:28Z">
+    <test name="Test1" duration-ms="25" started-at="2019-04-10T18:36:29Z" finished-at="2019-04-10T18:36:29Z">
       <class name="sample.Sample">
-        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample@4cc77c2e]" name="sample1" duration-ms="6" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample@39a054a5]" name="sample1" duration-ms="8" started-at="2019-04-11T00:06:29Z" finished-at="2019-04-11T00:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample1 -->
-        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample@4cc77c2e]" name="sample2" duration-ms="0" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample@39a054a5]" name="sample2" duration-ms="7" started-at="2019-04-11T00:06:29Z" finished-at="2019-04-11T00:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample2 -->
       </class> <!-- sample.Sample -->
       <class name="sample.Sample2">
-        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample2@512ddf17]" name="sample1" duration-ms="1" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sample1 -->
-        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample2@512ddf17]" name="sample2" duration-ms="2" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample2@77556fd]" name="sample2" duration-ms="8" started-at="2019-04-11T00:06:29Z" finished-at="2019-04-11T00:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample2 -->
+        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample2@77556fd]" name="sample1" duration-ms="8" started-at="2019-04-11T00:06:29Z" finished-at="2019-04-11T00:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1 -->
       </class> <!-- sample.Sample2 -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="5" started-at="2019-04-10T17:49:28Z" finished-at="2019-04-10T17:49:28Z">
+    <test name="Test2" duration-ms="4" started-at="2019-04-10T18:36:29Z" finished-at="2019-04-10T18:36:29Z">
       <class name="sample.Sample">
-        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample@7a46a697]" name="sample1" duration-ms="1" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample@6d86b085]" name="sample1" duration-ms="1" started-at="2019-04-11T00:06:29Z" finished-at="2019-04-11T00:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample1 -->
-        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample@7a46a697]" name="sample2" duration-ms="1" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample@6d86b085]" name="sample2" duration-ms="1" started-at="2019-04-11T00:06:29Z" finished-at="2019-04-11T00:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample2 -->
       </class> <!-- sample.Sample -->
       <class name="sample.Sample2">
-        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample2@3d04a311]" name="sample1" duration-ms="1" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample2@5f205aa]" name="sample1" duration-ms="1" started-at="2019-04-11T00:06:29Z" finished-at="2019-04-11T00:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample1 -->
-        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample2@3d04a311]" name="sample2" duration-ms="0" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample2@5f205aa]" name="sample2" duration-ms="1" started-at="2019-04-11T00:06:29Z" finished-at="2019-04-11T00:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample2 -->
