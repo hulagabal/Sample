@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39" started-at="2019-04-03T03:04:33Z" finished-at="2019-04-03T03:04:33Z">
+  <suite name="MySuite" duration-ms="70" started-at="2019-04-10T17:49:28Z" finished-at="2019-04-10T17:49:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39" started-at="2019-04-03T03:04:33Z" finished-at="2019-04-03T03:04:33Z">
+    <test name="Test1" duration-ms="26" started-at="2019-04-10T17:49:28Z" finished-at="2019-04-10T17:49:28Z">
       <class name="sample.Sample">
-        <test-method status="PASS" signature="sample()[pri:0, instance:sample.Sample@2096442d]" name="sample" duration-ms="20" started-at="2019-04-03T08:34:33Z" finished-at="2019-04-03T08:34:33Z">
+        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample@4cc77c2e]" name="sample1" duration-ms="6" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
+        </test-method> <!-- sample1 -->
+        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample@4cc77c2e]" name="sample2" duration-ms="0" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample2 -->
       </class> <!-- sample.Sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="sample.Sample2">
+        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample2@512ddf17]" name="sample1" duration-ms="1" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1 -->
+        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample2@512ddf17]" name="sample2" duration-ms="2" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample2 -->
+      </class> <!-- sample.Sample2 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="5" started-at="2019-04-10T17:49:28Z" finished-at="2019-04-10T17:49:28Z">
+      <class name="sample.Sample">
+        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample@7a46a697]" name="sample1" duration-ms="1" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1 -->
+        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample@7a46a697]" name="sample2" duration-ms="1" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample2 -->
+      </class> <!-- sample.Sample -->
+      <class name="sample.Sample2">
+        <test-method status="PASS" signature="sample1()[pri:0, instance:sample.Sample2@3d04a311]" name="sample1" duration-ms="1" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1 -->
+        <test-method status="PASS" signature="sample2()[pri:0, instance:sample.Sample2@3d04a311]" name="sample2" duration-ms="0" started-at="2019-04-10T23:19:28Z" finished-at="2019-04-10T23:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample2 -->
+      </class> <!-- sample.Sample2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- MySuite -->
 </testng-results>
